@@ -1,0 +1,1306 @@
+{
+  "navItems": [
+    {
+      "id": "home",
+      "title": "Home",
+      "path": "/",
+      "icon_name": "IconHome",
+      "nav_group": "primary"
+    },
+    {
+      "id": "hotels-homes",
+      "title": "Hotels & Homes",
+      "path": "/hotels-homes",
+      "icon_name": "IconBed",
+      "nav_group": "primary"
+    },
+    {
+      "id": "flights",
+      "title": "Flights",
+      "path": "/flights",
+      "icon_name": "IconPlane",
+      "nav_group": "primary"
+    },
+    {
+      "id": "trains",
+      "title": "Trains",
+      "path": "/trains",
+      "icon_name": "IconTrain",
+      "nav_group": "primary"
+    },
+    {
+      "id": "cars",
+      "title": "Cars",
+      "path": "/cars",
+      "icon_name": "IconCar",
+      "nav_group": "primary"
+    },
+    {
+      "id": "buses",
+      "title": "Buses",
+      "path": "/buses",
+      "icon_name": "IconBus",
+      "nav_group": "primary"
+    },
+    {
+      "id": "attractions-tours",
+      "title": "Attractions & Tours",
+      "path": "/attractions-tours",
+      "icon_name": "IconTicket",
+      "nav_group": "primary"
+    },
+    {
+      "id": "flight-hotel",
+      "title": "Flight + Hotel",
+      "path": "/flight-hotel",
+      "icon_name": "IconLuggage",
+      "nav_group": "primary"
+    },
+    {
+      "id": "events",
+      "title": "Events",
+      "path": "/events",
+      "icon_name": "IconCalendarEvent",
+      "nav_group": "more"
+    },
+    {
+      "id": "privatetours",
+      "title": "Private Tours",
+      "path": "/privatetours",
+      "icon_name": "IconSparkles",
+      "nav_group": "more"
+    },
+    {
+      "id": "grouptours",
+      "title": "Group Tours",
+      "path": "/grouptours",
+      "icon_name": "IconUsers",
+      "nav_group": "more"
+    },
+    {
+      "id": "cruises",
+      "title": "Cruises",
+      "path": "/cruises",
+      "icon_name": "IconShip",
+      "nav_group": "more"
+    },
+    {
+      "id": "tripplanner",
+      "title": "Trip.Planner",
+      "path": "/tripplanner",
+      "icon_name": "IconRoute",
+      "nav_group": "more"
+    },
+    {
+      "id": "travelinspiration",
+      "title": "Travel Inspiration",
+      "path": "/travelinspiration",
+      "icon_name": "IconCompass",
+      "nav_group": "more"
+    },
+    {
+      "id": "tripmap",
+      "title": "Map",
+      "path": "/tripmap",
+      "icon_name": "IconMap",
+      "nav_group": "more"
+    },
+    {
+      "id": "deals",
+      "title": "Deals",
+      "path": "/deals",
+      "icon_name": "IconDiscount",
+      "nav_group": "primary"
+    }
+  ],
+  "primaryNavIds": [
+    "home",
+    "hotels-homes",
+    "flights",
+    "trains",
+    "cars",
+    "buses",
+    "attractions-tours",
+    "flight-hotel",
+    "deals"
+  ],
+  "moreNavIds": [
+    "events",
+    "privatetours",
+    "grouptours",
+    "cruises",
+    "tripplanner",
+    "travelinspiration",
+    "tripmap"
+  ],
+  "categories": [
+    {
+      "id": "hotels-homes",
+      "title": "Hotels & Homes",
+      "caption": "Stay somewhere unforgettable",
+      "icon_name": "IconBed",
+      "path": "/hotels-homes",
+      "scene": "city",
+      "fields": [
+        {
+          "name": "destination",
+          "label": "Location",
+          "placeholder": "City, hotel or home",
+          "type": "text"
+        },
+        {
+          "name": "checkIn",
+          "label": "Check-in",
+          "type": "date"
+        },
+        {
+          "name": "checkOut",
+          "label": "Check-out",
+          "type": "date"
+        },
+        {
+          "name": "guests",
+          "label": "Guests & rooms",
+          "type": "counter"
+        }
+      ]
+    },
+    {
+      "id": "flights",
+      "title": "Flights",
+      "caption": "Take off for less",
+      "icon_name": "IconPlane",
+      "path": "/flights",
+      "scene": "island",
+      "fields": [
+        {
+          "name": "from",
+          "label": "From",
+          "placeholder": "Departure city or airport",
+          "type": "text"
+        },
+        {
+          "name": "to",
+          "label": "To",
+          "placeholder": "Destination city or airport",
+          "type": "text"
+        },
+        {
+          "name": "depart",
+          "label": "Departure",
+          "type": "date"
+        },
+        {
+          "name": "return",
+          "label": "Return",
+          "type": "date"
+        },
+        {
+          "name": "travellers",
+          "label": "Travellers & class",
+          "type": "select",
+          "options": [
+            "1 traveller, Economy",
+            "2 travellers, Economy",
+            "2 travellers, Business",
+            "Family, Economy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trains",
+      "title": "Trains",
+      "caption": "Scenic routes, easy fares",
+      "icon_name": "IconTrain",
+      "path": "/trains",
+      "scene": "mountain",
+      "fields": [
+        {
+          "name": "from",
+          "label": "From",
+          "placeholder": "Departure station",
+          "type": "text"
+        },
+        {
+          "name": "to",
+          "label": "To",
+          "placeholder": "Arrival station",
+          "type": "text"
+        },
+        {
+          "name": "depart",
+          "label": "Departure",
+          "type": "date"
+        },
+        {
+          "name": "return",
+          "label": "Return",
+          "type": "date"
+        },
+        {
+          "name": "passengers",
+          "label": "Passengers",
+          "type": "select",
+          "options": [
+            "1 adult",
+            "2 adults",
+            "3 adults",
+            "4+ adults"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cars",
+      "title": "Cars",
+      "caption": "Explore on your own terms",
+      "icon_name": "IconCar",
+      "path": "/cars",
+      "scene": "desert",
+      "fields": [
+        {
+          "name": "pickup",
+          "label": "Pick-up location",
+          "placeholder": "Airport or city",
+          "type": "text"
+        },
+        {
+          "name": "pickupDate",
+          "label": "Pick-up date",
+          "type": "date"
+        },
+        {
+          "name": "dropoffDate",
+          "label": "Drop-off date",
+          "type": "date"
+        },
+        {
+          "name": "carType",
+          "label": "Vehicle type",
+          "type": "select",
+          "options": [
+            "Economy",
+            "Compact",
+            "SUV",
+            "Luxury",
+            "Van"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buses",
+      "title": "Buses",
+      "caption": "Go further for less",
+      "icon_name": "IconBus",
+      "path": "/buses",
+      "scene": "city",
+      "fields": [
+        {
+          "name": "from",
+          "label": "From",
+          "placeholder": "Departure city",
+          "type": "text"
+        },
+        {
+          "name": "to",
+          "label": "To",
+          "placeholder": "Destination city",
+          "type": "text"
+        },
+        {
+          "name": "depart",
+          "label": "Travel date",
+          "type": "date"
+        },
+        {
+          "name": "passengers",
+          "label": "Passengers",
+          "type": "select",
+          "options": [
+            "1 adult",
+            "2 adults",
+            "3 adults",
+            "4+ adults"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "attractions-tours",
+      "title": "Attractions & Tours",
+      "caption": "See the best of everywhere",
+      "icon_name": "IconTicket",
+      "path": "/attractions-tours",
+      "scene": "safari",
+      "fields": [
+        {
+          "name": "destination",
+          "label": "Destination",
+          "placeholder": "City or attraction",
+          "type": "text"
+        },
+        {
+          "name": "date",
+          "label": "Visit date",
+          "type": "date"
+        },
+        {
+          "name": "tickets",
+          "label": "Tickets",
+          "type": "select",
+          "options": [
+            "1 adult",
+            "2 adults",
+            "3 adults",
+            "4+ adults",
+            "Family"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flight-hotel",
+      "title": "Flight + Hotel",
+      "caption": "Bundle and save more",
+      "icon_name": "IconLuggage",
+      "path": "/flight-hotel",
+      "scene": "beach",
+      "fields": [
+        {
+          "name": "from",
+          "label": "Flying from",
+          "placeholder": "Departure city",
+          "type": "text"
+        },
+        {
+          "name": "to",
+          "label": "Going to",
+          "placeholder": "Destination",
+          "type": "text"
+        },
+        {
+          "name": "depart",
+          "label": "Departure",
+          "type": "date"
+        },
+        {
+          "name": "return",
+          "label": "Return",
+          "type": "date"
+        },
+        {
+          "name": "guests",
+          "label": "Travellers",
+          "type": "select",
+          "options": [
+            "1 traveller",
+            "2 travellers",
+            "3 travellers",
+            "4+ travellers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "title": "Events",
+      "caption": "Be there when it happens",
+      "icon_name": "IconCalendarEvent",
+      "path": "/events",
+      "scene": "city",
+      "fields": [
+        {
+          "name": "destination",
+          "label": "Where?",
+          "placeholder": "City or venue",
+          "type": "text"
+        },
+        {
+          "name": "date",
+          "label": "When?",
+          "type": "date"
+        },
+        {
+          "name": "category",
+          "label": "Event type",
+          "type": "select",
+          "options": [
+            "Any event",
+            "Concerts",
+            "Sports",
+            "Festivals",
+            "Theatre",
+            "Conferences"
+          ]
+        }
+      ]
+    }
+  ],
+  "deals": [
+    {
+      "id": 1,
+      "title": "Sunset escapes in Zanzibar",
+      "location": "Zanzibar, Tanzania",
+      "category": "hotels-homes",
+      "price": 189,
+      "oldPrice": 265,
+      "rating": 4.9,
+      "duration_label": "4 nights",
+      "badge": "Save 29%",
+      "scene": "beach",
+      "icon_name": "IconBeach",
+      "summary": "Four nights of barefoot luxury on Zanzibar's western shore, with breakfast overlooking the Indian Ocean.",
+      "provider": "Seravita Stays",
+      "highlights": ["Beachfront rooms with private balconies", "Daily breakfast for two", "Free cancellation up to 7 days before arrival"],
+      "includes": ["4 nights accommodation", "Return airport transfers", "Wi-Fi throughout"],
+      "vehicle_type": null
+    },
+    {
+      "id": 2,
+      "title": "Return flights to Nairobi",
+      "location": "Nairobi, Kenya",
+      "category": "flights",
+      "price": 142,
+      "oldPrice": 198,
+      "rating": 4.7,
+      "duration_label": "Return",
+      "badge": "Limited fare",
+      "scene": "city",
+      "icon_name": "IconPlane",
+      "summary": "A convenient return fare into Nairobi with flexible dates and a generous hand allowance.",
+      "provider": "Kenya Airways",
+      "highlights": ["Direct return service", "7kg carry-on included", "Flexible change options"],
+      "includes": ["Return airfare", "7kg hand luggage", "Airport taxes"],
+      "vehicle_type": "flight",
+      "seat_rows": 8,
+      "seat_columns": 4,
+      "seat_aisle_after": 2
+    },
+    {
+      "id": 3,
+      "title": "Serengeti safari adventure",
+      "location": "Serengeti, Tanzania",
+      "category": "attractions-tours",
+      "price": 640,
+      "oldPrice": 820,
+      "rating": 4.9,
+      "duration_label": "3 days",
+      "badge": "Top rated",
+      "scene": "safari",
+      "icon_name": "IconBinoculars",
+      "summary": "Three days in the Serengeti with expert guides, game drives and nights under enormous skies.",
+      "provider": "Wild Trails",
+      "highlights": ["Two full-day game drives", "Experienced local guide", "Park entry fees covered"],
+      "includes": ["2 nights lodge accommodation", "All meals on safari", "4x4 transport"],
+      "vehicle_type": null
+    },
+    {
+      "id": 4,
+      "title": "Mountain rail journey",
+      "location": "Kampala to FortPortal",
+      "category": "trains",
+      "price": 78,
+      "oldPrice": 105,
+      "rating": 4.6,
+      "duration_label": "One way",
+      "badge": "Save 26%",
+      "scene": "mountain",
+      "icon_name": "IconTrain",
+      "summary": "A slow, scenic rail climb from Kampala into the foothills around FortPortal.",
+      "provider": "Uganda Railways",
+      "highlights": ["Panoramic valley views", "Reserved reclining seat", "Onboard refreshments"],
+      "includes": ["One-way rail ticket", "Reserved seat", "Onboard refreshments"],
+      "vehicle_type": "train",
+      "seat_rows": 6,
+      "seat_columns": 4,
+      "seat_aisle_after": 2
+    },
+    {
+      "id": 5,
+      "title": "Coastal road trip car hire",
+      "location": "Dar es Salaam",
+      "category": "cars",
+      "price": 54,
+      "oldPrice": 72,
+      "rating": 4.8,
+      "duration_label": "Per day",
+      "badge": "Free cancellation",
+      "scene": "desert",
+      "icon_name": "IconCar",
+      "summary": "Pick up a reliable car in Dar es Salaam and take the coast at your own pace.",
+      "provider": "Coast Drive",
+      "highlights": ["Unlimited mileage", "Free cancellation", "Airport pick-up available"],
+      "includes": ["Daily rental", "Comprehensive insurance", "24/7 roadside support"],
+      "vehicle_type": null
+    },
+    {
+      "id": 6,
+      "title": "Flight + beach hotel bundle",
+      "location": "Mombasa, Kenya",
+      "category": "flight-hotel",
+      "price": 429,
+      "oldPrice": 590,
+      "rating": 4.8,
+      "duration_label": "5 nights",
+      "badge": "Save 27%",
+      "scene": "island",
+      "icon_name": "IconLuggage",
+      "summary": "Flights and five nights by the Mombasa coast, bundled together for one simple price.",
+      "provider": "Seravita Bundles",
+      "highlights": ["Return flights included", "Beachfront hotel", "One simple payment"],
+      "includes": ["Return airfare", "5 nights accommodation", "Airport transfers"],
+      "vehicle_type": null
+    },
+    {
+      "id": 7,
+      "title": "Private Kilimanjaro trek",
+      "location": "Moshi, Tanzania",
+      "category": "privatetours",
+      "price": 1250,
+      "oldPrice": 1490,
+      "rating": 5,
+      "duration_label": "6 days",
+      "badge": "Private guide",
+      "scene": "mountain",
+      "icon_name": "IconMountain",
+      "summary": "A six-day private ascent with your own guide, porters and a pace that suits you.",
+      "provider": "Seravita Guides",
+      "highlights": ["Dedicated private guide", "Porters and equipment included", "Flexible daily pace"],
+      "includes": ["6 days guided trek", "Mountain accommodation", "All meals and permits"],
+      "vehicle_type": null
+    },
+    {
+      "id": 8,
+      "title": "Group city discovery tour",
+      "location": "Kampala, Uganda",
+      "category": "grouptours",
+      "price": 65,
+      "oldPrice": 90,
+      "rating": 4.7,
+      "duration_label": "Half day",
+      "badge": "Small group",
+      "scene": "city",
+      "icon_name": "IconBuildingSkyscraper",
+      "summary": "Half a day exploring Kampala's markets, landmarks and food stops with a small group.",
+      "provider": "Seravita Small Groups",
+      "highlights": ["Maximum of 8 travellers", "Local food tastings", "Central hotel pick-up"],
+      "includes": ["Half-day guided tour", "Tastings", "Local transport"],
+      "vehicle_type": null
+    },
+    {
+      "id": 9,
+      "title": "Swahili coast cruise",
+      "location": "Indian Ocean",
+      "category": "cruises",
+      "price": 890,
+      "oldPrice": 1120,
+      "rating": 4.9,
+      "duration_label": "7 nights",
+      "badge": "All inclusive",
+      "scene": "cruise",
+      "icon_name": "IconShip",
+      "summary": "Seven nights sailing the Swahili coast with island stops and all meals on board.",
+      "provider": "Ocean Voyages",
+      "highlights": ["Three island stops", "All meals and drinks", "Evening entertainment"],
+      "includes": ["7 nights cabin", "All meals", "Shore excursions"],
+      "vehicle_type": null
+    },
+    {
+      "id": 10,
+      "title": "Live music & culture festival",
+      "location": "Arusha, Tanzania",
+      "category": "events",
+      "price": 45,
+      "oldPrice": 60,
+      "rating": 4.6,
+      "duration_label": "2 days",
+      "badge": "Selling fast",
+      "scene": "city",
+      "icon_name": "IconCalendarEvent",
+      "summary": "Two days of live music, crafts and food celebrating the cultures of northern Tanzania.",
+      "provider": "Arusha Events",
+      "highlights": ["Over 20 live acts", "Food and craft village", "Family-friendly daytime programme"],
+      "includes": ["Two-day festival pass", "Access to all stages", "Programme guide"],
+      "vehicle_type": null
+    },
+    {
+      "id": 11,
+      "title": "Cross-country coach pass",
+      "location": "Dar es Salaam to Kampala",
+      "category": "buses",
+      "price": 38,
+      "oldPrice": 55,
+      "rating": 4.6,
+      "duration_label": "One way",
+      "badge": "Save 31%",
+      "scene": "desert",
+      "icon_name": "IconBus",
+      "summary": "A comfortable cross-country coach between Dar es Salaam and Kampala with two rest stops.",
+      "provider": "Coast Coach",
+      "highlights": ["Reclining seats", "Two comfort stops", "One bag included"],
+      "includes": ["One-way coach ticket", "Reserved seat", "One checked bag"],
+      "vehicle_type": "bus",
+      "seat_rows": 10,
+      "seat_columns": 4,
+      "seat_aisle_after": 2
+    },
+    {
+      "id": 12,
+      "title": "City-to-city bus transfer",
+      "location": "Nairobi to Arusha",
+      "category": "buses",
+      "price": 22,
+      "oldPrice": 30,
+      "rating": 4.7,
+      "duration_label": "One way",
+      "badge": "Popular route",
+      "scene": "city",
+      "icon_name": "IconBus",
+      "summary": "The easy daily shuttle from Nairobi to Arusha, with a mid-route refreshment break.",
+      "provider": "Rift Valley Express",
+      "highlights": ["Daily departures", "Air-conditioned coach", "Central pick-up points"],
+      "includes": ["One-way bus ticket", "Reserved seat", "Refreshment break"],
+      "vehicle_type": "bus",
+      "seat_rows": 10,
+      "seat_columns": 4,
+      "seat_aisle_after": 2
+    },
+    {
+      "id": 13,
+      "title": "Garden retreat in Arusha",
+      "location": "Arusha, Tanzania",
+      "category": "hotels-homes",
+      "price": 132,
+      "oldPrice": 178,
+      "rating": 4.8,
+      "duration_label": "3 nights",
+      "badge": "Quiet stay",
+      "scene": "mountain",
+      "icon_name": "IconBed",
+      "summary": "A calm garden hotel on the edge of Arusha, close to the city yet wonderfully quiet.",
+      "provider": "Seravita Stays",
+      "highlights": ["Lush tropical gardens", "Breakfast included", "Pool and sundeck"],
+      "includes": ["3 nights accommodation", "Daily breakfast", "Wi-Fi"],
+      "vehicle_type": null
+    },
+    {
+      "id": 14,
+      "title": "Lakeside lodge in Kisumu",
+      "location": "Kisumu, Kenya",
+      "category": "hotels-homes",
+      "price": 96,
+      "oldPrice": 140,
+      "rating": 4.5,
+      "duration_label": "2 nights",
+      "badge": "Save 31%",
+      "scene": "island",
+      "icon_name": "IconBeach",
+      "summary": "A small lakeside lodge with sunset views over Lake Victoria and easy access to the town.",
+      "provider": "Lakeview Lodges",
+      "highlights": ["Lake-facing rooms", "Sunset terrace", "On-site restaurant"],
+      "includes": ["2 nights accommodation", "Breakfast", "Wi-Fi"],
+      "vehicle_type": null
+    },
+    {
+      "id": 15,
+      "title": "Nairobi to Zanzibar airfare",
+      "location": "Zanzibar, Tanzania",
+      "category": "flights",
+      "price": 118,
+      "oldPrice": 165,
+      "rating": 4.6,
+      "duration_label": "One way",
+      "badge": "Great value",
+      "scene": "island",
+      "icon_name": "IconPlane",
+      "summary": "A short hop from Nairobi to Zanzibar with a choice of morning or afternoon departures.",
+      "provider": "Flightlink",
+      "highlights": ["Twice-daily departures", "Choose your seat", "20kg checked bag"],
+      "includes": ["One-way airfare", "20kg checked bag", "Airport taxes"],
+      "vehicle_type": "flight",
+      "seat_rows": 8,
+      "seat_columns": 4,
+      "seat_aisle_after": 2
+    },
+    {
+      "id": 16,
+      "title": "Dar es Salaam to Kampala connection",
+      "location": "Kampala, Uganda",
+      "category": "flights",
+      "price": 205,
+      "oldPrice": 268,
+      "rating": 4.5,
+      "duration_label": "One way",
+      "badge": "Flexible",
+      "scene": "city",
+      "icon_name": "IconPlane",
+      "summary": "Connect between Dar es Salaam and Kampala with a short, convenient layover in Nairobi.",
+      "provider": "Kenya Airways",
+      "highlights": ["Single-ticket connection", "Short layover", "Meal on board"],
+      "includes": ["One-way airfare", "23kg checked bag", "Airport taxes"],
+      "vehicle_type": "flight",
+      "seat_rows": 8,
+      "seat_columns": 4,
+      "seat_aisle_after": 2
+    },
+    {
+      "id": 17,
+      "title": "Entebbe evening departure",
+      "location": "Entebbe, Uganda",
+      "category": "flights",
+      "price": 96,
+      "oldPrice": 132,
+      "rating": 4.4,
+      "duration_label": "One way",
+      "badge": "Save 27%",
+      "scene": "beach",
+      "icon_name": "IconPlane",
+      "summary": "An evening flight out of Entebbe that leaves the whole day free before departure.",
+      "provider": "Uganda Airlines",
+      "highlights": ["Late evening departure", "Window or aisle choice", "Snack on board"],
+      "includes": ["One-way airfare", "15kg checked bag", "Airport taxes"],
+      "vehicle_type": "flight",
+      "seat_rows": 8,
+      "seat_columns": 4,
+      "seat_aisle_after": 2
+    },
+    {
+      "id": 18,
+      "title": "Lakeside express to Kisumu",
+      "location": "Nairobi to Kisumu",
+      "category": "trains",
+      "price": 64,
+      "oldPrice": 88,
+      "rating": 4.7,
+      "duration_label": "One way",
+      "badge": "Scenic route",
+      "scene": "mountain",
+      "icon_name": "IconTrain",
+      "summary": "A comfortable daytime train from Nairobi down to Kisumu, with views across the Rift Valley.",
+      "provider": "Kenya Railways",
+      "highlights": ["Rift Valley views", "Reserved seat", "Onboard cafe"],
+      "includes": ["One-way rail ticket", "Reserved seat", "One checked bag"],
+      "vehicle_type": "train",
+      "seat_rows": 6,
+      "seat_columns": 4,
+      "seat_aisle_after": 2
+    },
+    {
+      "id": 19,
+      "title": "Highlands daytime rail",
+      "location": "Nairobi to Nyeri",
+      "category": "trains",
+      "price": 42,
+      "oldPrice": 60,
+      "rating": 4.5,
+      "duration_label": "One way",
+      "badge": "Popular",
+      "scene": "mountain",
+      "icon_name": "IconTrain",
+      "summary": "A relaxed ride up into the highlands, ideal for a day trip out of Nairobi.",
+      "provider": "Kenya Railways",
+      "highlights": ["Morning departure", "Great-value fare", "Open-air viewing car"],
+      "includes": ["One-way rail ticket", "Reserved seat"],
+      "vehicle_type": "train",
+      "seat_rows": 6,
+      "seat_columns": 4,
+      "seat_aisle_after": 2
+    },
+    {
+      "id": 20,
+      "title": "Savanna sunset rail",
+      "location": "Voi to Mombasa",
+      "category": "trains",
+      "price": 88,
+      "oldPrice": 120,
+      "rating": 4.8,
+      "duration_label": "One way",
+      "badge": "Sunset special",
+      "scene": "safari",
+      "icon_name": "IconTrain",
+      "summary": "Ride through Tsavo as the light fades, arriving in Mombasa after a memorable sunset.",
+      "provider": "Kenya Railways",
+      "highlights": ["Sunset through Tsavo", "Dining car available", "Wildlife sightings"],
+      "includes": ["One-way rail ticket", "Reserved seat", "Welcome drink"],
+      "vehicle_type": "train",
+      "seat_rows": 6,
+      "seat_columns": 4,
+      "seat_aisle_after": 2
+    },
+    {
+      "id": 21,
+      "title": "Compact city car in Nairobi",
+      "location": "Nairobi, Kenya",
+      "category": "cars",
+      "price": 38,
+      "oldPrice": 52,
+      "rating": 4.6,
+      "duration_label": "Per day",
+      "badge": "City friendly",
+      "scene": "city",
+      "icon_name": "IconCar",
+      "summary": "An easy-to-park compact car for getting around Nairobi on your own schedule.",
+      "provider": "City Wheels",
+      "highlights": ["Automatic transmission", "Fuel efficient", "Free cancellation"],
+      "includes": ["Daily rental", "Insurance", "Roadside support"],
+      "vehicle_type": null
+    },
+    {
+      "id": 22,
+      "title": "Family SUV for the coast",
+      "location": "Mombasa, Kenya",
+      "category": "cars",
+      "price": 92,
+      "oldPrice": 118,
+      "rating": 4.9,
+      "duration_label": "Per day",
+      "badge": "Family favourite",
+      "scene": "desert",
+      "icon_name": "IconCar",
+      "summary": "A spacious SUV with room for the whole family and everything you need for the beach.",
+      "provider": "Coast Drive",
+      "highlights": ["Seven seats", "Air conditioning", "Child seats on request"],
+      "includes": ["Daily rental", "Comprehensive insurance", "24/7 roadside support"],
+      "vehicle_type": null
+    },
+    {
+      "id": 23,
+      "title": "Coastal shuttle to Mombasa",
+      "location": "Dar es Salaam to Mombasa",
+      "category": "buses",
+      "price": 26,
+      "oldPrice": 38,
+      "rating": 4.5,
+      "duration_label": "One way",
+      "badge": "Save 32%",
+      "scene": "beach",
+      "icon_name": "IconBus",
+      "summary": "A direct coastal shuttle with air conditioning and plenty of room for luggage.",
+      "provider": "Coast Coach",
+      "highlights": ["Direct coastal route", "Air conditioning", "Two bags included"],
+      "includes": ["One-way bus ticket", "Reserved seat", "Two checked bags"],
+      "vehicle_type": "bus",
+      "seat_rows": 10,
+      "seat_columns": 4,
+      "seat_aisle_after": 2
+    },
+    {
+      "id": 24,
+      "title": "Arusha to Moshi local bus",
+      "location": "Arusha to Moshi",
+      "category": "buses",
+      "price": 14,
+      "oldPrice": 20,
+      "rating": 4.4,
+      "duration_label": "One way",
+      "badge": "Frequent departures",
+      "scene": "mountain",
+      "icon_name": "IconBus",
+      "summary": "The simple, frequent local connection between Arusha and Moshi for mountain trips.",
+      "provider": "Northern Shuttles",
+      "highlights": ["Departures every hour", "Central stations", "Lowest fare"],
+      "includes": ["One-way bus ticket", "Reserved seat"],
+      "vehicle_type": "bus",
+      "seat_rows": 10,
+      "seat_columns": 4,
+      "seat_aisle_after": 2
+    },
+    {
+      "id": 25,
+      "title": "Nairobi national park day trip",
+      "location": "Nairobi, Kenya",
+      "category": "attractions-tours",
+      "price": 78,
+      "oldPrice": 105,
+      "rating": 4.7,
+      "duration_label": "1 day",
+      "badge": "Half day option",
+      "scene": "safari",
+      "icon_name": "IconBinoculars",
+      "summary": "See lions, rhinos and giraffes against a city skyline on a guided park day trip.",
+      "provider": "Wild Trails",
+      "highlights": ["Expert guide", "Park entry included", "Hotel pick-up"],
+      "includes": ["Guided game drive", "Park fees", "Bottled water"],
+      "vehicle_type": null
+    },
+    {
+      "id": 26,
+      "title": "Zanzibar spice farm visit",
+      "location": "Zanzibar, Tanzania",
+      "category": "attractions-tours",
+      "price": 42,
+      "oldPrice": 58,
+      "rating": 4.8,
+      "duration_label": "Half day",
+      "badge": "Local favourite",
+      "scene": "island",
+      "icon_name": "IconBeach",
+      "summary": "Walk a working spice farm, taste fresh produce and learn how the island's flavours grow.",
+      "provider": "Island Experiences",
+      "highlights": ["Guided farm walk", "Spice tasting", "Local lunch"],
+      "includes": ["Half-day tour", "Lunch", "Return transfers"],
+      "vehicle_type": null
+    },
+    {
+      "id": 27,
+      "title": "Zanzibar flight & stay",
+      "location": "Zanzibar, Tanzania",
+      "category": "flight-hotel",
+      "price": 512,
+      "oldPrice": 690,
+      "rating": 4.8,
+      "duration_label": "5 nights",
+      "badge": "Save 26%",
+      "scene": "beach",
+      "icon_name": "IconLuggage",
+      "summary": "Return flights and five nights in a beachfront Zanzibar hotel, booked as one bundle.",
+      "provider": "Seravita Bundles",
+      "highlights": ["Return flights", "Beachfront room", "Breakfast each morning"],
+      "includes": ["Return airfare", "5 nights accommodation", "Airport transfers"],
+      "vehicle_type": null
+    },
+    {
+      "id": 28,
+      "title": "Kampala city break bundle",
+      "location": "Kampala, Uganda",
+      "category": "flight-hotel",
+      "price": 348,
+      "oldPrice": 470,
+      "rating": 4.6,
+      "duration_label": "3 nights",
+      "badge": "City escape",
+      "scene": "city",
+      "icon_name": "IconLuggage",
+      "summary": "A short city break with flights, central accommodation and a guided orientation tour.",
+      "provider": "Seravita Bundles",
+      "highlights": ["Central hotel", "Guided orientation", "Return flights included"],
+      "includes": ["Return airfare", "3 nights accommodation", "City tour"],
+      "vehicle_type": null
+    },
+    {
+      "id": 29,
+      "title": "Zanzibar food & wine weekend",
+      "location": "Zanzibar, Tanzania",
+      "category": "events",
+      "price": 68,
+      "oldPrice": 90,
+      "rating": 4.7,
+      "duration_label": "2 days",
+      "badge": "New event",
+      "scene": "island",
+      "icon_name": "IconCalendarEvent",
+      "summary": "A weekend of island cooking, tastings and live music across Stone Town's best venues.",
+      "provider": "Island Experiences",
+      "highlights": ["Six tasting sessions", "Live music each evening", "Stone Town venues"],
+      "includes": ["Weekend pass", "All tastings", "Event programme"],
+      "vehicle_type": null
+    },
+    {
+      "id": 30,
+      "title": "Zanzibar private island hop",
+      "location": "Zanzibar, Tanzania",
+      "category": "privatetours",
+      "price": 480,
+      "oldPrice": 620,
+      "rating": 4.9,
+      "duration_label": "1 day",
+      "badge": "Private charter",
+      "scene": "island",
+      "icon_name": "IconShip",
+      "summary": "A private boat charter around Zanzibar's smaller islands with swimming and a seafood lunch.",
+      "provider": "Seravita Guides",
+      "highlights": ["Private boat and skipper", "Three island stops", "Seafood lunch"],
+      "includes": ["Full-day charter", "Lunch and drinks", "Snorkelling gear"],
+      "vehicle_type": null
+    },
+    {
+      "id": 31,
+      "title": "Uganda watershed group tour",
+      "location": "FortPortal, Uganda",
+      "category": "grouptours",
+      "price": 110,
+      "oldPrice": 145,
+      "rating": 4.6,
+      "duration_label": "2 days",
+      "badge": "Small group",
+      "scene": "mountain",
+      "icon_name": "IconMountain",
+      "summary": "Two days of crater lakes, forests and local villages with a small group and a local guide.",
+      "provider": "Seravita Small Groups",
+      "highlights": ["Maximum of 10 travellers", "Crater lake walk", "Village visit"],
+      "includes": ["Guided tour", "1 night accommodation", "Local transport"],
+      "vehicle_type": null
+    },
+    {
+      "id": 32,
+      "title": "Zanzibar dhow sunset sail",
+      "location": "Zanzibar, Tanzania",
+      "category": "cruises",
+      "price": 86,
+      "oldPrice": 120,
+      "rating": 4.8,
+      "duration_label": "Evening",
+      "badge": "Sunset cruise",
+      "scene": "cruise",
+      "icon_name": "IconShip",
+      "summary": "A relaxed evening aboard a traditional dhow as the sun sets over Stone Town harbour.",
+      "provider": "Ocean Voyages",
+      "highlights": ["Traditional wooden dhow", "Sunset views", "Drinks on board"],
+      "includes": ["Two-hour cruise", "Welcome drink", "Light snacks"],
+      "vehicle_type": null
+    }
+  ],
+  "destinations": [
+    {
+      "id": "zanzibar",
+      "name": "Zanzibar",
+      "country": "Tanzania",
+      "scene": "beach",
+      "trips": 128,
+      "icon_name": "IconBeach"
+    },
+    {
+      "id": "nairobi",
+      "name": "Nairobi",
+      "country": "Kenya",
+      "scene": "city",
+      "trips": 96,
+      "icon_name": "IconBuildingSkyscraper"
+    },
+    {
+      "id": "serengeti",
+      "name": "Serengeti",
+      "country": "Tanzania",
+      "scene": "safari",
+      "trips": 84,
+      "icon_name": "IconBinoculars"
+    },
+    {
+      "id": "kilimanjaro",
+      "name": "Kilimanjaro",
+      "country": "Tanzania",
+      "scene": "mountain",
+      "trips": 61,
+      "icon_name": "IconMountain"
+    },
+    {
+      "id": "mombasa",
+      "name": "Mombasa",
+      "country": "Kenya",
+      "scene": "island",
+      "trips": 77,
+      "icon_name": "IconBeach"
+    },
+    {
+      "id": "kampala",
+      "name": "Kampala",
+      "country": "Uganda",
+      "scene": "city",
+      "trips": 53,
+      "icon_name": "IconBuildingSkyscraper"
+    }
+  ],
+  "perks": [
+    {
+      "id": "price",
+      "title": "Best price promise",
+      "body": "Compare trusted providers and keep more of your travel budget.",
+      "icon_name": "IconDiscount"
+    },
+    {
+      "id": "support",
+      "title": "Real human support",
+      "body": "Our travel specialists are here before, during and after your trip.",
+      "icon_name": "IconSparkles"
+    },
+    {
+      "id": "secure",
+      "title": "Secure booking",
+      "body": "Simple, transparent payments with no hidden fees at checkout.",
+      "icon_name": "IconLuggage"
+    },
+    {
+      "id": "flexible",
+      "title": "Flexible plans",
+      "body": "Free cancellation on hundreds of stays, tours and tickets.",
+      "icon_name": "IconRoute"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "Seven islands you can explore in a long weekend",
+      "excerpt": "Swap the ordinary for turquoise water, soft sand and unforgettable sunsets.",
+      "tag": "Inspiration",
+      "read_time": "6 min read",
+      "scene": "island",
+      "is_featured": true
+    },
+    {
+      "id": 2,
+      "title": "A first-timer’s guide to the Serengeti",
+      "excerpt": "When to go, what to pack and how to make the most of every game drive.",
+      "tag": "Safari",
+      "read_time": "9 min read",
+      "scene": "safari",
+      "is_featured": false
+    },
+    {
+      "id": 3,
+      "title": "Slow travel: the beauty of taking the train",
+      "excerpt": "Why the journey can be just as memorable as the destination.",
+      "tag": "Trains",
+      "read_time": "5 min read",
+      "scene": "mountain",
+      "is_featured": false
+    },
+    {
+      "id": 4,
+      "title": "City breaks that won’t break the bank",
+      "excerpt": "Culture, food and hidden corners in Africa’s most exciting cities.",
+      "tag": "City breaks",
+      "read_time": "7 min read",
+      "scene": "city",
+      "is_featured": false
+    }
+  ],
+  "mapPins": [
+    {
+      "id": "zanzibar",
+      "name": "Zanzibar",
+      "x_pct": 61,
+      "y_pct": 62,
+      "price": 189,
+      "scene": "beach"
+    },
+    {
+      "id": "nairobi",
+      "name": "Nairobi",
+      "x_pct": 58,
+      "y_pct": 55,
+      "price": 142,
+      "scene": "city"
+    },
+    {
+      "id": "serengeti",
+      "name": "Serengeti",
+      "x_pct": 56,
+      "y_pct": 59,
+      "price": 640,
+      "scene": "safari"
+    },
+    {
+      "id": "mombasa",
+      "name": "Mombasa",
+      "x_pct": 59,
+      "y_pct": 64,
+      "price": 429,
+      "scene": "island"
+    },
+    {
+      "id": "kampala",
+      "name": "Kampala",
+      "x_pct": 55,
+      "y_pct": 51,
+      "price": 78,
+      "scene": "mountain"
+    },
+    {
+      "id": "cape-town",
+      "name": "Cape Town",
+      "x_pct": 52,
+      "y_pct": 82,
+      "price": 520,
+      "scene": "cruise"
+    }
+  ],
+  "experiences": [
+    {
+      "kind": "privatetours",
+      "title": "Private Tours",
+      "eyebrow": "Just for you",
+      "subtitle": "A guide, a vehicle and an itinerary that bends around your plans — not the other way around.",
+      "scene": "safari",
+      "icon_name": "IconSparkles",
+      "tagline": "Your trip, your pace",
+      "intro": "Travel with the people you choose, on the schedule you set. Our private tours are built around what you want to see, with a dedicated guide who knows the little places the big groups miss.",
+      "highlights": [
+        "A private guide and vehicle for your group only",
+        "Pick the places, pace and departure time you prefer",
+        "Handpicked stays and transfers arranged for you",
+        "Flexible changes right up to the day before"
+      ]
+    },
+    {
+      "kind": "grouptours",
+      "title": "Group Tours",
+      "eyebrow": "Better together",
+      "subtitle": "Small, friendly groups, great value and the kind of shared moments that stick with you.",
+      "scene": "city",
+      "icon_name": "IconUsers",
+      "tagline": "Go further, together",
+      "intro": "Join a small group of curious travellers and let our guides handle the details. You get the confidence of a planned itinerary with plenty of room to make it your own.",
+      "highlights": [
+        "Small groups that never feel crowded",
+        "Expert local guides on every departure",
+        "Flights, stays and activities bundled together",
+        "Clear pricing with no surprise extras"
+      ]
+    },
+    {
+      "kind": "cruises",
+      "title": "Cruises",
+      "eyebrow": "Life at sea",
+      "subtitle": "Wake up somewhere new, unpack once and let the ocean set the rhythm.",
+      "scene": "cruise",
+      "icon_name": "IconShip",
+      "tagline": "The journey is the destination",
+      "intro": "From the Swahili coast to far beyond, we put together cruises that balance lively days ashore with slow, salt-air evenings onboard. Choose your cabin, we will take care of the rest.",
+      "highlights": [
+        "Cabin options for every budget and view",
+        "Shore excursions curated with local partners",
+        "All-inclusive dining and entertainment choices",
+        "Flexible payment plans on selected sailings"
+      ]
+    }
+  ],
+  "experienceSearchFields": [
+    [
+      {
+        "name": "destination",
+        "label": "Where to?",
+        "placeholder": "Country, port or city",
+        "type": "text"
+      },
+      {
+        "name": "date",
+        "label": "Preferred date",
+        "type": "date"
+      },
+      {
+        "name": "duration",
+        "label": "Duration",
+        "type": "select",
+        "options": [
+          "Flexible",
+          "3 to 5 days",
+          "6 to 10 days",
+          "More than 10 days"
+        ]
+      },
+      {
+        "name": "travellers",
+        "label": "Travellers",
+        "type": "select",
+        "options": [
+          "1 traveller",
+          "2 travellers",
+          "3 to 5 travellers",
+          "6+ travellers"
+        ]
+      }
+    ]
+  ]
+}
