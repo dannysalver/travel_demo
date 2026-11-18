@@ -3,7 +3,7 @@ FROM node:20-alpine AS build
 WORKDIR /app
 
 COPY package.json yarn.lock ./
-RUN npm install --no-audit --no-fund
+RUN npm install -g npm@11 && npm install --no-audit --no-fund
 
 COPY . .
 ARG VITE_API_BASE
